@@ -25,3 +25,29 @@ kampus = """Universitas
 Sebelas
 Maret """
 print(kampus)
+
+
+# --- 2 tipe data number
+# - integer : ini merupakan tipe data angka berbentuk bilangan bulat
+data_integer1 = 10
+print(data_integer1)
+print(type(data_integer1)) # "int" menandakan data bertipe integer
+
+data_integer2 = 1000000000000000
+print(data_integer2)
+print(type(data_integer2))
+
+data_integer3 = 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+print(data_integer3) # bisa menampung jumlah digit angkat yang sangat besar
+
+# - float : ini merupakan tipe data angka yang decimal
+data_float1 = 0.1
+print(data_float1)
+print(type(data_float1))
+
+data_float2 = 10.0
+print(data_float2)
+
+data_float3 = 10e10 # kita juga bisa menggunakan notasi matematika seperti ini untuk memudahkan penulisan
+print(data_float3)
+print(type(data_float3))
